@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Comic Sans MS;
+}
+*{
+  box-sizing: border-box;
+}
+form{
+  display: block;
+  background-color: rgb(218, 217, 237);
+  box-shadow: black;
+  margin:40px auto;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 25px 40px;
+}
+form input,textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px;
+    font-family: Comic Sans MS;
+    background-color: white;
+    border: 1px solid black;
+
+}
+form span{
+  color: rgb(29,185,237);
+}
+
+form button {
+  height: 30px;
+  width: 80px;
+  align-items: center;
+  border: none;
+  background-color:  rgb(29,185,237);
+  color: #fff;
+  cursor: pointer;
+}
