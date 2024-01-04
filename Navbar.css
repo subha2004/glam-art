@@ -1,0 +1,49 @@
+.navbar {
+    background-color: transparent;
+    padding: 10px 10px;
+   }
+   
+   .trek {
+    font-size: 20px;
+   }
+   
+   .trailblazer {
+    margin-top: 10px;
+    font-size: 35px;
+   }
+   
+   .home {
+    text-decoration: none;
+    color: rgba(214, 201, 201, 0.914);
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-style: italic;
+    font-size: 50px;
+    font-family: lucida handwriting;
+   }
+   
+   .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .nav-item {
+    margin: auto;
+   }
+   
+   .nav-link {
+    text-decoration: none;
+    color: rgba(185, 229, 227, 0.834);
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: 30px;
+   }
+   
+   .nav-link:hover {
+    background-color: rgb(160, 148, 148);
+   }
